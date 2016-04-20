@@ -1,0 +1,1 @@
+vhdtdtfi -prj Procesador_Mono -o C:/.Xilinx/Arquitectura/ConditionalCodes/Procesador_Mono/ALU.vhi -module ALU -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ALU.vhd 

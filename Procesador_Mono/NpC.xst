@@ -1,0 +1,5 @@
+set -tmpdir "C:/.Xilinx/Arquitectura/ConditionalCodes/Procesador_Mono/xst/projnav.tmp"
+set -xsthdpdir "C:/.Xilinx/Arquitectura/ConditionalCodes/Procesador_Mono/xst"
+elaborate
+-ifn NpC.prj
+-ifmt mixed

@@ -1,0 +1,1 @@
+vhdtdtfi -prj Procesador_Mono -o C:/.Xilinx/Arquitectura/ConditionalCodes/Procesador_Mono/Uc.vhi -module Uc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Uc.vhd 

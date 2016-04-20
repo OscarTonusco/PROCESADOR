@@ -1,0 +1,6 @@
+vhdtdtfi -prj Procesador_Mono -o C:/.Xilinx/Arquitectura/ConditionalCodes/Procesador_Mono/Npc.vhi -module Npc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Npc.vhd 
+vhdtdtfi -prj Procesador_Mono -o C:/.Xilinx/Arquitectura/ConditionalCodes/Procesador_Mono/Npc.vhi -module Npc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Npc.vhd 
+vhdtdtfi -prj Procesador_Mono -o C:/.Xilinx/Arquitectura/ConditionalCodes/Procesador_Mono/Npc.vhi -module Npc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Npc.vhd 
+vhdtdtfi -prj Procesador_Mono -o C:/.Xilinx/Arquitectura/ConditionalCodes/Procesador_Mono/Npc.vhi -module Npc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Npc.vhd 
+vhdtdtfi -prj Procesador_Mono -o C:/.Xilinx/Arquitectura/ConditionalCodes/Procesador_Mono/Npc.vhi -module Npc -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Npc.vhd 
+vhdtdtfi -prj Procesador_Mono -o C:/.Xilinx/Arquitectura/ConditionalCodes/Procesador_Mono/NpC.vhi -module NpC -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work NpC.vhd 
