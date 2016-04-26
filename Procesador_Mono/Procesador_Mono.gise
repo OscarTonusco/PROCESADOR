@@ -47,9 +47,23 @@
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="Register_file.vhi"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="Seu.vhi"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="Sumador32.vhi"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestBNpc_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestBNpc_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestBpc_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestBpc_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestBsumador_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestBsumador_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TestBsumador_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestBsumador_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="Uc.vhi"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="r_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="r_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
@@ -58,15 +72,9 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1461169835" xil_pn:in_ck="7389107534050574827" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1461169835">
+    <transform xil_pn:end_ts="1461631737" xil_pn:in_ck="1176356053257896557" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1461631737">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="A.vhd"/>
       <outfile xil_pn:name="ALU.vhd"/>
       <outfile xil_pn:name="Arquitectura-procesador.vhd"/>
       <outfile xil_pn:name="IM.vhd"/>
@@ -76,20 +84,54 @@
       <outfile xil_pn:name="Register_file.vhd"/>
       <outfile xil_pn:name="Seu.vhd"/>
       <outfile xil_pn:name="Sumador32.vhd"/>
+      <outfile xil_pn:name="TestBNpc.vhd"/>
+      <outfile xil_pn:name="TestBpc.vhd"/>
+      <outfile xil_pn:name="TestBsumador.vhd"/>
       <outfile xil_pn:name="Uc.vhd"/>
-      <outfile xil_pn:name="b.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1461100163" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1461100163">
+    <transform xil_pn:end_ts="1461631671" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5514306081711549773" xil_pn:start_ts="1461631671">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1461100163" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3418866178078708973" xil_pn:start_ts="1461100163">
+    <transform xil_pn:end_ts="1461631671" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4164146744849875083" xil_pn:start_ts="1461631671">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1461100163" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2453619110934165014" xil_pn:start_ts="1461100163">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1461631746" xil_pn:in_ck="1176356053257896557" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1461631746">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="Arquitectura-procesador.vhd"/>
+      <outfile xil_pn:name="IM.vhd"/>
+      <outfile xil_pn:name="MuX.vhd"/>
+      <outfile xil_pn:name="NpC.vhd"/>
+      <outfile xil_pn:name="Pc.vhd"/>
+      <outfile xil_pn:name="Register_file.vhd"/>
+      <outfile xil_pn:name="Seu.vhd"/>
+      <outfile xil_pn:name="Sumador32.vhd"/>
+      <outfile xil_pn:name="TestBNpc.vhd"/>
+      <outfile xil_pn:name="TestBpc.vhd"/>
+      <outfile xil_pn:name="TestBsumador.vhd"/>
+      <outfile xil_pn:name="Uc.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1461631762" xil_pn:in_ck="1176356053257896557" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1540397805605518040" xil_pn:start_ts="1461631746">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TestBsumador_beh.prj"/>
+      <outfile xil_pn:name="TestBsumador_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1461631763" xil_pn:in_ck="8010816905761896675" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7502396898789297451" xil_pn:start_ts="1461631762">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TestBsumador_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
     </transform>
     <transform xil_pn:end_ts="1461108879" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1461108878">
       <status xil_pn:value="SuccessfullyRun"/>

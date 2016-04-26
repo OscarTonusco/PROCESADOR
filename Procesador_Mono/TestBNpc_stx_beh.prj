@@ -1,0 +1,2 @@
+vhdl isim_temp "NpC.vhd"
+vhdl isim_temp "TestBNpc.vhd"
