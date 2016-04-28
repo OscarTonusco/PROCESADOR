@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/Tbconexion_isim_beh.exe" -prj "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/Tbconexion_beh.prj" "work.Tbconexion" 

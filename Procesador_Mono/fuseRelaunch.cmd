@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "C:/Xilinx/xilinxApp/Procesador_Mono/TestBsumador_isim_beh.exe" -prj "C:/Xilinx/xilinxApp/Procesador_Mono/TestBsumador_beh.prj" "work.TestBsumador" 

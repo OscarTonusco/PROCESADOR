@@ -1,0 +1,41 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/Tbconexion_isim_beh.exe -prj C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/Tbconexion_beh.prj work.Tbconexion 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/Uc.vhd" into library work
+Parsing VHDL file "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/Sumador32.vhd" into library work
+Parsing VHDL file "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/Seu.vhd" into library work
+Parsing VHDL file "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/Register_file.vhd" into library work
+Parsing VHDL file "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/Pc.vhd" into library work
+Parsing VHDL file "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/NpC.vhd" into library work
+Parsing VHDL file "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/MuX.vhd" into library work
+Parsing VHDL file "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/IM.vhd" into library work
+Parsing VHDL file "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/Arquitectura-procesador.vhd" into library work
+Parsing VHDL file "C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/Tbconexion.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package textio
+Compiling architecture behavioral of entity NpC [npc_default]
+Compiling architecture behavioral of entity Pc [pc_default]
+Compiling architecture behavioral of entity Sumador32 [sumador32_default]
+Compiling architecture behavioral of entity IM [im_default]
+Compiling architecture behavioral of entity Seu [seu_default]
+Compiling architecture behavioral of entity MuX [mux_default]
+Compiling architecture behavioral of entity Uc [uc_default]
+Compiling architecture behavioral of entity Register_file [register_file_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity Arquitectura_procesador [arquitectura_procesador_default]
+Compiling architecture behavior of entity tbconexion
+Time Resolution for simulation is 1ps.
+Waiting for 13 sub-compilation(s) to finish...
+Compiled 27 VHDL Units
+Built simulation executable C:/Users/cristian/Desktop/pro/Procesador_Mono/Procesador_Mono/Tbconexion_isim_beh.exe
+Fuse Memory Usage: 36160 KB
+Fuse CPU Usage: 811 ms
